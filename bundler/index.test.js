@@ -134,7 +134,7 @@ describe('Main bundler module', () => {
   test('Creates a proper bundle', async () => {
     await bundler.createBundle(TestHtmlFilePath, MOCK.SCHEMA_CUSTOM_OUTPUT);
     checkBundleFromCustomSchemaMock();
-    clearDistFolder();
+    // clearDistFolder();
   });
 
 });

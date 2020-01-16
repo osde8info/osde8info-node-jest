@@ -2,6 +2,7 @@
 dist/*
 !dist/.gitkeep
 package-lock.json
+bundler/test_data/dist
 
 # Logs
 logs
