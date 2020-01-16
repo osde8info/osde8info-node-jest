@@ -21,18 +21,19 @@ For now `static-pages-bundler` tested only on `macOS Movaje v10.14.4`, `Windows 
 ### Installation
 To use the library you will need to have [node.js](https://nodejs.org/en/) and [git](https://git-scm.com/) installed on your system.
   
-    
-To install `static-pages-bundler` globally, simply run from terminal:
+and
 ```
-  $ npm install -g static-pages-bundler
-```
-
-  
-You may remove the `-g` flag if you want to install `static-pages-bundler` as a dev dependency. So, the command will be 
-```
-  $ npm i --save-dev static-pages-bundler
+# npm -g install html-minifier
+# npm -g install uglify-es uglifycss
+# npm -g install webpack babel-cli happypack
+# npm -g install jest
+# npm -g install clean-webpack-plugin
 ```
 
+to test
+```
+$ NODE_PATH=/usr/local/lib/node_modules npm run test
+```
 
 ### Bundling process
 1. Create a `dist` folder you're going to run the script from.
